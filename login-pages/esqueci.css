@@ -1,0 +1,115 @@
+/* Estilização do corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Cor de fundo suave */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilização do container principal */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #d7e7f8;
+}
+
+/* Estilização da caixa principal */
+.box {
+    background-color: #b3d2eb;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Estilização do título */
+.title {
+    font-size: 24px;
+    color: #4e7a8f;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Estilização do wrapper dos inputs */
+.input-wrapper {
+    margin-bottom: 20px;
+}
+
+/* Estilização da linha de input */
+.input-row {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Estilização do label */
+.labels {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+/* Estilização do campo de input */
+.inputs {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+/* Estilização da linha de botões */
+.button-row {
+    display: flex;
+    justify-content: center;
+    gap: 25px; /* Garante que haja um espaço entre os botões */
+}
+
+/* Estilização do botão */
+.btn {
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilização do botão "Redefinir" */
+.btn-save {
+    background-color: #548cc9;
+    color: white;
+}
+
+.btn-save:hover {
+    background-color: #0056b3;
+}
+.btn-back {
+    background-color: #dc3545; /* Cor vermelha */
+    color: white;
+    width: 140%; /* Garante que os botões fiquem lado a lado */
+}
+
+/* Estilização para telas pequenas (responsivo) */
+@media screen and (max-width: 600px) {
+    .box {
+        padding: 20px;
+        width: 90%;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}
