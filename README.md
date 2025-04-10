@@ -1,5 +1,5 @@
 ##  Finanças na Web: Conectando Clientes ao Mundo Financeiro
-## imagem
+![Logo](logo-projeto.png)
 ## Sobre o Projeto
 O Finanças na Web é um site especializado na gestão de escritórios contábeis, com o objetivo de aproximar contadores e clientes de forma prática e eficiente. A plataforma oferece soluções digitais para facilitar o atendimento, organização de documentos, comunicação e controle financeiro. 
 ## Instalação
